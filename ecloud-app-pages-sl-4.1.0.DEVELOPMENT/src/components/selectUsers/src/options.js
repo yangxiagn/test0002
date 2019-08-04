@@ -1,0 +1,23 @@
+export default {
+    lang: 'zh-CN',
+    textObj: {},
+    title: '选择用户',
+    type: '',
+    search: true,
+    tabs: [],
+    selectUserIds: [],
+    userJson: [],
+    unitType: '',
+    unitIds: [],
+    units: [],
+    unitId: '',
+    selectUserType: 2,
+    userTypes: [1, 2, 3],
+    groups: [],
+    secondGroups: [],
+    userId: '',
+    groupType: '',
+    groupId: '',
+    ignore:[],
+    beforeClose: (selectUsers, instance) => {}
+};

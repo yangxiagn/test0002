@@ -1,0 +1,78 @@
+
+/*主题*/
+
+.sy-sy-theme-row>p {
+    color: #20a0ff;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.sy-sy-theme-row ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sy-sy-theme-row ul li {
+    display: inline-block;
+    margin: 7px;
+    width: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.sy-sy-theme-row ul li i {
+    display: inline-block;
+    margin: 7px 0;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .6);
+}
+
+.sy-sy-theme-row ul li .color-other {
+    display: inline-block;
+    margin: 7px 0;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .6);
+}
+
+.sy-sy-theme-row ul li p {
+    font-size: 14px;
+    margin: 5px -5px;
+}
+
+.sy-el-input-min-small {
+    width: 80%;
+}
+
+.sy-sy-theme-row ul li.sy-color-choice-model {
+    height: 83px;
+    padding-top: 10px;
+    vertical-align: top;
+    width: auto;
+}
+
+.sy-sy-theme-row ul li.sy-color-choice-model .sy-color-choice-el {
+    height: 40px;
+    margin-bottom: 7px;
+}
+
+.sy-desktop-slide-open {
+    background-color: #20a0ff;
+    border-radius: 5px;
+}
+
+.sy-desktop-slide-close {
+    background-color: transparent;
+}
+
+.letters {
+  position: relative;
+  display: block;
+  min-height: 400px;
+  max-height: 70vh;
+  margin: 0 auto;
+}

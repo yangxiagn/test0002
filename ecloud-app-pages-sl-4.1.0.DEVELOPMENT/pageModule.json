@@ -1,0 +1,88 @@
+{
+    "page": "page",
+    "name": "sl",
+    "pre": false,
+    "post": true,
+    "preName": "pre",
+    "postName": "post",
+    "config": {
+        "navList": [
+            {
+				"sort": 1,
+				"isSelect": false,
+				"menuRoute": "",
+                "name": "我的主页",
+                "dir": "home",
+				"id": "sl_1",
+				"parentId": "sl",
+				"code": "sl_1",
+				"icon": "fa-home",
+				"children": []
+            },
+            {
+				"sort": 2,
+				"isSelect": false,
+				"menuRoute": "",
+				"name": "统计分析",
+                "dir": "count",
+				"id": "sl_2",
+				"parentId": "sl",
+				"code": "sl_2",
+				"icon": "fa-bar-chart",
+				"children": []
+			},
+            {
+				"sort": 3,
+				"isSelect": false,
+				"menuRoute": "",
+				"name": "直播课堂",
+                "dir": "classroom",
+				"id": "sl_3",
+				"parentId": "sl",
+				"code": "sl_3",
+				"icon": "fa-laptop",
+				"children": []
+			},
+            {
+				"sort": 4,
+				"isSelect": false,
+				"menuRoute": "",
+				"name": "课程设置",
+                "dir": "setting",
+				"id": "sl_4",
+				"parentId": "sl",
+				"code": "sl_4",
+				"icon": "fa-life-ring",
+				"children": []
+			},
+            {
+				"sort": 5,
+				"isSelect": false,
+				"menuRoute": "",
+				"name": "基础设置",
+                "dir": "setting",
+				"id": "sl_5",
+				"parentId": "sl",
+				"code": "sl_5",
+				"icon": "fa-life-ring",
+				"children": []
+			}
+        ]
+    },
+    "version": {
+        "en": [{
+            "version": "4.1.0",
+            "model": "Self-directed learning platform",
+            "metto": [
+                "In this version, the flat design of the page is carried out, and the user experience and process are greatly optimized and the performance is greatly improved."
+            ]
+        }],
+        "zh-CN": [{
+            "version": "4.1.0",
+            "model": "自主学习平台",
+            "metto": [
+                "本版本中进行了页面扁平化的设计，在用户体验和流程上进行了大的优化，性能大大提升"
+            ]
+        }]
+    }
+}

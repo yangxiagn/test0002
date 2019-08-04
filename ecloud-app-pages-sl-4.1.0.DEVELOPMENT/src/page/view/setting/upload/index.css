@@ -1,0 +1,194 @@
+.sy-upload-page {
+    font-size: 12px;
+    color: #333;
+}
+
+.sy-upload-page div {
+    box-sizing: border-box;
+}
+
+.sy-upload-page .el-input__inner {
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.sy-upload-page div.el-input__inner {
+    line-height: 24px;
+    height: 30px;
+}
+
+.sy-upload-page-table {
+    width: 100%;
+}
+
+.sy-upload-page-table>tr>td {
+    line-height: 30px;
+    padding: 5px;
+    vertical-align: top;
+    position: relative
+}
+
+.sy-upload-page-row1 {
+    margin-left: 70px;
+    position: relative;
+}
+
+/* 让错误信息可以显示出来 */
+
+.sy-upload-page .el-table, .sy-upload-page .el-table__body-wrapper {
+    overflow: visible
+}
+
+.sy-upload-page .sy-import .sy-import-file-name.borderRed, .sy-upload-page .borderRed .el-input__inner, .sy-upload-page .borderRed.el-input__inner {
+    border-color: red
+}
+
+.sy-upload-page .errorMsg {
+    position: absolute;
+    z-index: 100;
+    color: red;
+    top: 100%;
+    left: 0;
+    height: 16px;
+    line-height: 17px;
+}
+
+.sy-upload-page .el-table .errorMsg {
+    left: 7px;
+    top: 86%;
+}
+
+.sy-upload-page .el-table td,{
+    height: 50px
+}
+
+.sy-upload-page .el-table .el-table__body .sy-error-progress.fa {
+    color: #F7BA2A;
+}
+
+.sy-upload-page .uploadRc .sy-row:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both
+}
+
+.sy-upload-page .uploadRc .sy-row .sy-row {
+    margin: 0;
+}
+
+.sy-upload-page .uploadRc input[type="text"].width100 {
+    width: 100%
+}
+
+/* 上传tab切换 */
+
+.sy-upload-page .sy-tabs .sy-tabs-header-input:checked+.sy-tabs-header-item-span {
+    background: #fff
+}
+
+/* 上传按钮 */
+
+.sy-upload-page .sy-import {
+    float: left;
+}
+
+.sy-upload-page .sy-import .sy-import-file-name {
+    display: inline-block;
+    padding: 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.sy-upload-page .sy-import .sy-import-file-name-div {
+    display: inline-block;
+    min-width: 0;
+    width: 130px;
+    height: 100%;
+    line-height: 28px;
+    overflow: hidden;
+    text-align: left;
+    padding: 0px 5px;
+}
+
+.sy-upload-page .el-checkbox {
+    margin: 0 10px
+}
+
+.sy-upload-page .el-upload-list {
+    position: absolute;
+    right: 0;
+    top: -140px;
+    width: 500px;
+}
+
+.sy-upload-page .sy-upload-page-progress {
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.sy-upload-page-import-add-button {
+    float: right;
+    margin-right: 60px;
+}
+
+/* 新增编目 */
+
+.sy-upload-page-chose-courses {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    overflow: hidden;
+    height: auto !important;
+}
+
+.sy-upload-page-courses-list {
+    float: left;
+    border-width: 1px;
+    border-style: solid;
+    width: 174px;
+}
+
+.sy-upload-page-courses-list-title {
+    color: #fff;
+    line-height: 31px;
+    padding: 0 10px
+}
+
+.sy-upload-page-courses-list-cont {
+    overflow: auto;
+    height: 247px;
+    line-height: 30px;
+}
+
+.sy-upload-page-courses-list-cont li {
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.sy-upload-page-courses-list-cont li.active {
+    font-weight: bold
+}
+
+.sy-upload-page-courses-list-cont a {
+    text-decoration: none;
+    color: #333
+}
+
+.sy-upload-page-tree {
+    height: 280px;
+    overflow: auto
+}
+
+.sy-upload-page-tree .ztree li, .sy-upload-page-tree .ztree li span, .sy-upload-page-tree .ztree li a {
+    line-height: 30px
+}

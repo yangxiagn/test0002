@@ -1,0 +1,44 @@
+{
+    "icon": {
+        "share/css/ishare": false, 
+        "share/fonts/iconfont": false, 
+        "font-awesome.min": true,  
+        "materialdesignicons.min": true
+    },
+    "style": {
+        "element-ui.min": true, 
+        "ecloud-ui.min": true, 
+        "ztree.min": false, 
+        "index": true
+    },
+    "config": {
+        "sy-config": true,
+        "userAgent.min": true
+    },
+    "js": {
+        "jquery.min": true,
+        "jquery.ztree.all.min": true,
+        "axios.min": true,
+        "moment.min": true,
+        "lodash.min": true,
+        "qs.min": true,
+        "vue.min": true,
+        "vue-router.min": true,
+        "vuex.min": true,
+        "vue-i18n.min": true,
+        "element-ui.min": true,
+        "ecloud-ui.min": true,
+        "echarts.min": true,
+        "screenfull.min": true,
+        "iShare": false,
+        "jquery-super-slide.min": false,
+        "ckplayer/ckplayer.min": false,
+        "ckplayer.config": false,
+        "ueditor/ueditor.config.min": false,
+        "ueditor/ueditor.all.min": false,
+        "ueditor/lang/zh-cn/zh-cn": false,
+        "ueditor/ueditor.parse.min": false,
+        "ueditor/ueditor.extend.min": false,
+        "sortable.min": false
+    }
+}
